@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color:rwhite;
+}
+.header img{
+    width: 150px;
+    height: 40px;
+}
+.header .navlist ul, .footer ul{
+    display: flex;
+    margin-right: 150px;
+
+}
+.header .navlist ul li, .footer ul li{
+    list-style: none;
+}
+.header .navlist ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+}
+.header .icons{
+    margin-right: 30px;
+}
+.header .icons i{
+    padding: 6px;
+}
+.header .subcribe>.btn,.subscriptionContainer .btnContainer .btn{
+    padding: 8px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.mainContentSection{
+    background-color: rgb(243, 238, 238);
+    display: flex;
+    flex-direction: column;
+}
+.mainContentSection .section1 {
+    display: flex;
+    padding: 5px;
+    margin: 30px 65px 10px 65px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.mainContentSection .section2 {
+    display: flex;
+    padding: 10px;
+    margin: 5px 38px  20px 38px;
+    
+    
+}
+.mainContentSection .section2 .subcard{
+    background-color: white;
+    margin: 5px 20px;
+    padding: 5px;
+    display: flex;
+    border-radius: 10px;
+    
+}
+
+
+.mainContentSection .section1 img{
+    width: 800px;
+    height: 250px;
+    /* object-fit: cover; */
+    border-radius: 10px;
+}
+.mainContentSection .section1 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: justify;
+
+}
+.mainContentSection .section2 .subcard img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.mainContentSection .section2 .subcard .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    /* text-align: justify; */
+}
+.mainContentSection .section2 .blueBtn{
+    color: blue;
+    background-color: rgb(192, 192, 233);
+}
+.mainContentSection .section2 .greenBtn{
+    color: darkgreen;
+    background-color: rgb(202, 239, 202);
+}
+.section2 .subcard p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.content .authorInfo img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.content .contentBtn{
+    width: 65px;
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+    color: blueviolet;
+    background-color: rgb(216, 189, 241);
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.content h3{
+    margin-bottom: 8px;
+}
+.content p{
+    margin-top: 5px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.content .authorInfo{
+    display: flex;
+    align-items: center;
+}
+.content .authorInfo p{
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.articleHeader{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin: 5px 65px ;
+}
+.articleHeader h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.articleHeader p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.articleHeader .btn{
+    width:90px;
+    padding: 8px;
+    margin: 10px;
+    font-size: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(227, 206, 206);
+}
+.articleHeader .btn:hover{
+    background-color: black;
+    color: white;
+}
+.articleContainer{
+    margin: 30px 65px 10px 65px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.articleCard{
+    width: 265px;
+    border-radius: 10px;
+    margin: 5px 12px;
+}
+
+.articleCard img{
+    width: 265px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+.articleCard .cardInfo{
+    padding: 10px;
+}
+.articleCard .cardInfo h2{
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.articleCard .cardInfo p{
+    font-size: 10px;
+    margin-bottom: 7px;
+}
+.articleCard .cardInfo .authorInfo{
+    display: flex;
+    align-items: center;
+    
+}
+.articleCard .cardInfo .authorInfo img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.articleCard .cardInfo .authorInfo p{
+  
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.articleCard .cardInfo .authorInfo .contentBtn{
+    width: 65px;
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+    color: blueviolet;
+    background-color: rgb(216, 189, 241);
+    margin-bottom: 10px;
+    font-size: 10px;
+    margin-left: 15px;
+}
+.articleContainer .btn{
+    width:110px;
+    margin: 10px;
+    font-size: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.articleCard .cardInfo .authorInfo .greenBtn{
+    color: darkgreen;
+    background-color: rgb(202, 239, 202);
+
+}
+.topAuthorSection{
+    margin: 40px 65px 10px 65px;
+
+}
+.topAuthorSection .topAuthorsHeader{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 10px;
+}
+.topAuthorSection .topAuthorsHeader h2{
+    font-size: 18px;
+    margin-right: 700px;
+}
+.topAuthorSection .topAuthorsHeader i{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.topAuthorSection .topAuthorsHeader p{
+    font-size: 10px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.topAuthorsCardSection{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.topAuthorSection .topAuthorsCard img{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px;
+    
+}
+.topAuthorSection .topAuthorsCard{
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px;
+    width: 230px;
+    border-radius: 10px;
+    background-color:  rgb(243, 238, 238);
+    padding: 7px;
+}
+.topAuthorSection .topAuthorsCard .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6px;
+    margin-left: 5px;
+
+}
+.topAuthorSection .topAuthorsCard .content h3{
+    font-size: 14px;
+    margin: 1px;
+}
+.topAuthorSection .topAuthorsCard .content p{
+    font-size: 10px;
+    margin-top: 2px;
+}
+.subscriptionContainer{
+    /* margin: 40px 65px 40px 65px; */
+    background-color: rgb(243, 238, 238);
+    padding: 10px;
+}
+.subscriptionContainer .subscriptionCard{
+    display: flex;
+    padding: 10px;
+    margin: 30px 65px 30px 65px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    
+}
+.subscriptionContainer .subscriptionCard .content{
+    width: 400px;
+    margin-right: 70px;
+    padding: 5px;
+    
+}
+.subscriptionContainer .subscriptionCard .content h3{
+    font-size: 17px;
+}
+[type="text"]{
+    width: 220px;
+    height: 30px;
+} 
+
+.footer{
+    display: flex;
+    margin: 20px 5px 20px 60px;
+    justify-content: center;
+
+}
+.footer .copyRight{
+    padding-top: 11px;
+    font-size: 10px;
+    margin-right: 2px;
+}
+.footer  p{
+    font-size: 10px;
+    margin-right: 120px;
+    padding-top: 10px;
+} 
+.footer ul li{
+    font-size: 10px;
+    margin: 10px;
+} 
+.footer .followUs{
+    margin: 9px;
+    font-size: 12px;
+    font-weight: 800;
+}  
+.footer .followUs i{
+    padding-left: 10px;
+}
